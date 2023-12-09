@@ -18,7 +18,7 @@ public class Task6 {
 
     private static void printMultiplicationTable(int multiplier, int minMultiplicand, int maxMultiplicand) {
         //#1 option
-        for (int i = minMultiplicand; i <= maxMultiplicand; i++) {
+        for(int i = minMultiplicand; i <= maxMultiplicand; i++) {
             int result = multiplier * i;
             System.out.println(multiplier + " x " + i + " = " + result);
         }

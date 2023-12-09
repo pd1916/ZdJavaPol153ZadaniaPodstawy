@@ -37,7 +37,7 @@ public class Task5 {
             result += firstDigit;
             firstDigit++;
         } while(firstDigit <= secondDigit);
-        
+
         return result;
     }
 }
