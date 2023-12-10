@@ -10,7 +10,7 @@ public class Task8 {
     }
 
     private static void printResult(int[][] arrays) {
-        for(int[] a: arrays) {
+        for(int[] a : arrays) {
             for(int element : a) {
                 System.out.print(element + "\t");
             }

@@ -17,12 +17,12 @@ public class Task9 {
             if(input.isBlank()) {
                 System.out.println("No input");
             } else if(!"Enough".equals(input)) {
-                if (lengthOfTheLongestWord < input.length()) {
+                if(lengthOfTheLongestWord < input.length()) {
                     longestWord = input;
                     lengthOfTheLongestWord = input.length();
                 }
             }
-        }while(!"Enough".equals(input));
+        } while(!"Enough".equals(input));
 
         //#2 option
         /*while(true) {

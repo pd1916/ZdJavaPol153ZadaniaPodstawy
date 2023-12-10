@@ -13,7 +13,7 @@ public class Task1 {
         if(StringValidator.isValid(input)) {
             String[] words = input.split(" ");
             StringBuilder shortenSms = new StringBuilder();
-            for (String word : words) {
+            for(String word : words) {
                 String firstLetter = word.substring(0, 1);
                 String remainingLetters = word.substring(1);
                 shortenSms

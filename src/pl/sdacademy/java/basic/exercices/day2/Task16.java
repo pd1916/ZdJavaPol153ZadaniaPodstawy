@@ -16,7 +16,7 @@ public class Task16 {
         input[0] = input[2];
         input[2] = tmp;*/
 
-        for(int i=0; i<input.length/2; i++) {
+        for(int i = 0; i < input.length / 2; i++) {
             int nextPositionElement = (input.length - 1) - i;
             int tmp = input[i];
             input[i] = input[nextPositionElement];

@@ -30,7 +30,7 @@ public class Task1 {
         input.equals("STOP") -> potencjalny NPE
         "STOP".equals(input) -> jesteśmy bezpieczni
         */
-        if(StringValidator.isValid(input)){
+        if(StringValidator.isValid(input)) {
             int lastPosition = input.length() - 1;
             //return input.substring(lastPosition);
             return input.charAt(lastPosition);

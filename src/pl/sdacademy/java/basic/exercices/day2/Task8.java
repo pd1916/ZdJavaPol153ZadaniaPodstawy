@@ -30,10 +30,10 @@ public class Task8 {
                 char currentChar = input.charAt(i);
                 if(currentChar >= VALUE_UPPER_A_IN_ASCII && currentChar <= VALUE_UPPER_Z_IN_ASCII) {
                     //result += String.valueOf((char) (currentChar + DIFF_UPPER_AND_LOWER));
-                    result.append((char)(currentChar + DIFF_UPPER_AND_LOWER));
+                    result.append((char) (currentChar + DIFF_UPPER_AND_LOWER));
                 } else if(currentChar >= VALUE_LOWER_A_IN_ASCII && currentChar <= VALUE_LOWER_Z_IN_ASCII) {
                     //result += String.valueOf((char) (currentChar - DIFF_UPPER_AND_LOWER));
-                    result.append((char)(currentChar - DIFF_UPPER_AND_LOWER));
+                    result.append((char) (currentChar - DIFF_UPPER_AND_LOWER));
                 } else { //inne niz litery -> nie zmieniamy
                     //result += currentChar;
                     result.append(currentChar);

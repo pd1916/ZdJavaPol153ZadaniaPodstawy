@@ -17,7 +17,7 @@ public class Task10 {
         StringBuilder result = new StringBuilder();
         while(howManyWords-- > 0) {
             String word = scanner.nextLine();
-            result.append(word.charAt(word.length()-1));
+            result.append(word.charAt(word.length() - 1));
         }
         return result.toString();
     }
