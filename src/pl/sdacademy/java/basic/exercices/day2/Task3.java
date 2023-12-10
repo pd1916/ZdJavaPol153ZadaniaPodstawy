@@ -4,7 +4,7 @@ public class Task3 {
 
     public static void main(String[] args) {
         String input = "Ala ma kota";
-        String word = "ma,";
+        String word = "ma";
         int result = getIndex(input, word);
         System.out.println(result);
     }
