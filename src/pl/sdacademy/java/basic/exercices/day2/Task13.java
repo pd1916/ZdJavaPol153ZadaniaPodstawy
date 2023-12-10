@@ -16,6 +16,8 @@ public class Task13 {
         System.out.println("maxValue: " + maxValue);
         int sum = sum(inputs2);
         System.out.println("sum: " + sum);
+
+        System.out.println(Arrays.toString(inputs2));
     }
 
     private static int getMinValue(int[] ints) {
