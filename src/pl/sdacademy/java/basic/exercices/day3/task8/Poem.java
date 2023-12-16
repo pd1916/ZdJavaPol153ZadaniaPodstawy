@@ -11,6 +11,14 @@ public class Poem {
         this.stropheNumbers = stropheNumbers;
     }
 
+    public int getStropheNumbers() {
+        return stropheNumbers;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
     @Override
     public boolean equals(Object o) {
         if(this == o) return true;

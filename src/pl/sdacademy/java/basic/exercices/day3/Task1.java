@@ -1,6 +1,5 @@
 package pl.sdacademy.java.basic.exercices.day3;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Task1 {
@@ -39,6 +38,7 @@ public class Task1 {
 
     /**
      * co robi metoda
+     *
      * @param email - co oznacza ten parametr
      * @return co zwracamy
      */

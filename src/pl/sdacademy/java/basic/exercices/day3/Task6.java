@@ -16,7 +16,7 @@ public class Task6 {
 
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern(DATE_TIME_FORMAT);
         LocalDateTime nextLesson = LocalDateTime.parse(inputDate, dtf);
-        LocalDateTime now  = LocalDateTime.now();
+        LocalDateTime now = LocalDateTime.now();
 
         Duration duration = Duration.between(now, nextLesson);
         long days = duration.toDays();

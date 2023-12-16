@@ -38,4 +38,12 @@ public class Order {
         }
         return total;
     }
+
+    public void print() {
+        for(OrderItem item : items) {
+            item.print();
+        }
+        System.out.println("Total amount: " + getTotalAmount());
+        System.out.println("Count: " + getItemsCount());
+    }
 }
