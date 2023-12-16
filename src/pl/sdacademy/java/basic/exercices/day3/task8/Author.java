@@ -11,6 +11,10 @@ public class Author {
         this.nationality = nationality;
     }
 
+    public String getSurname() {
+        return surname;
+    }
+
     @Override
     public boolean equals(Object o) {
         if(this == o) return true;
